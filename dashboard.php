@@ -276,6 +276,13 @@ body{
 
 
 /* TOP BAR */
+.head p {
+    margin-top: 18px;
+    margin-left:20px;   
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+}
 .topbar{
     display: flex;
     background: #2c3e50;
@@ -481,7 +488,10 @@ width:100%;
     <div class="head">
 
         <h1>Dashboard</h1>
-
+<p style="margin-top:5px; font-size:16px; color:#555;">
+  Welcome Back, <?php echo isset($_SESSION['name']) ? $_SESSION['name'] : 'User'; ?>
+👋
+</p>
     </div>
     <div class="stats">
 
