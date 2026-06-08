@@ -438,12 +438,12 @@ width:100%;
 
 <body>
     <div class="menu">
-        <div class="logo">
-            <h3>MENU</h3>
-        </div>
+        
          <div class="overlay" id="overlay" onclick="closeMenu()"></div>
         <div class="sidebar" id="sidebar">
-            
+            <div class="logo">
+            <h3>MENU</h3>
+        </div>
             <a href="addproduct.php">Add Product</a>
             <a href="showproducts.php">Show Products</a>
             <a href="updatestock.php">Update Stock</a>
